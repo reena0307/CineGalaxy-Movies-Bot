@@ -1,0 +1,46 @@
+
+{
+  "name": "CineGalaxy Movies Bot",
+  "description": "This Bot Can be Used in @CineGalaxy only",
+  "keywords": [
+    "telegram",
+    "Test",
+    "Movies"
+  ],
+  "repository": "https://github.com/reena0307/CineGalaxy-Movies-Bot",
+  "logo": "https://telegra.ph/file/5a80731e307ce1d281b18.jpg",
+  "env": {
+    "TG_BOT_TOKEN": {
+      "description": "Your Bot token, Get it from @Botfather",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "An integer of consisting of your owner ID",
+      "value": "1109091234"
+    },
+    "APP_ID":{
+      "description": "your app id, take it from my.telegram.org",
+      "value": ""
+    },
+    "API_HASH":{
+      "description": "your api hash, take it from my.telegram.org",
+      "value": ""
+    },
+    "CHANNEL_ID":{
+      "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
+      "value": "-100"
+    },
+    "FORCE_SUB_CHANNEL":{
+      "description": "id of the channel or group, if you want enable force sub feature else put 0",
+      "value": "0"
+    },
+    "START_MESSAGE": {
+      "description": "Optional: start message of bot, use HTML parsemode format",
+      "value": "Hello {first}\n\nThis Bot is Created for @CineGalaxy"
+    },
+    "ADMINS": {
+      "description": "A space separated list of user_ids of Admins, they can only create links",
+      "value": "",
+    }
+  }
+}

@@ -1,1 +1,1 @@
-# CineGalaxy-Movies-Bot
+# CineGalaxy Movies Bot
